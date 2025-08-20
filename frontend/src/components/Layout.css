@@ -1,0 +1,43 @@
+/* src/components/Layout.css */
+.layout {
+    min-height: 100vh;
+    height: 100%;
+    /* Đảm bảo chiếm toàn bộ chiều cao */
+    width: 100%;
+    /* Đảm bảo chiếm toàn bộ chiều rộng */
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 0;
+    /* Loại bỏ padding để kiểm tra, thêm lại nếu cần */
+    margin: 0;
+    /* Loại bỏ margin */
+    box-sizing: border-box;
+    /* Đảm bảo padding không làm tăng kích thước */
+    overflow-x: hidden;
+    /* Ngăn cuộn ngang */
+}
+
+.content {
+    flex: 1 0 auto;
+    width: 100%;
+    margin-bottom: 100px;
+    /* Đảm bảo nội dung con chiếm toàn width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Canh giữa nội dung */
+    justify-content: center;
+    /* Canh giữa theo chiều dọc */
+}
+
+.navbar {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    /* Đảm bảo navbar chiếm toàn width */
+}

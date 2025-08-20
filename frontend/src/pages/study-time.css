@@ -1,0 +1,91 @@
+.study-time-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.time-input {
+    font-size: 65px;
+    font-family: monospace;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    width: 8rem;
+}
+
+.time-display {
+    font-size: 65px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+}
+
+.time-display:hover:not(.disabled) {
+    color: white;
+}
+
+.time-display.disabled {
+    color: gray;
+    cursor: default;
+}
+
+.button-group {
+    display: flex;
+    margin-top: 10px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.start-stop-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #FEFFC4;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.start-stop-button:hover {
+    background-color: #FFDE63;
+}
+
+.mode-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #77BEF0;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.mode-button:hover {
+    background-color: #799EFF;
+}
+
+.reset-button {
+    color: white;
+    background: none;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.reset-button:hover {
+    color: gray;
+}
