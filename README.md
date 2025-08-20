@@ -1,7 +1,7 @@
 # Study Alone 📚
 
 ## 🚀 Giới thiệu
-Study Alone là một ứng dụng giúp bạn quản lý thời gian học tập cá nhân, tạo động lực học tập một mình nhưng không cô đơn.  
+Study Alone là một ứng dụng giúp bạn quản lý đếm thời gian học tập cá nhân, quản lý lập danh sách phần học một mình chill chill.  
 Dự án bao gồm **backend** (Node.js/Express) và **frontend** (React).
 
 ## 📂 Cấu trúc thư mục
