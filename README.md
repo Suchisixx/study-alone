@@ -5,11 +5,10 @@ Study Alone là một ứng dụng giúp bạn quản lý thời gian học tậ
 Dự án bao gồm **backend** (Node.js/Express) và **frontend** (React).
 
 ## 📂 Cấu trúc thư mục
-
-backend/ # API & logic phía server
-frontend/ # Giao diện React 
-package.json
-README.md
+- backend/ # API & logic phía server
+- frontend/ # Giao diện React
+- package.json
+- README.md
 
 Tính năng
 - Bộ đếm thời gian học tập 
@@ -23,10 +22,10 @@ Tính năng
    git clone https://github.com/Suchisixx/study-alone.git
    cd study-alone
 2. cấu hình lại thông tin database trong backend/config/db.js (MySQL)
-2. npm install
-3. cd backend
+3. npm install
+4. cd backend
    npm run dev
-4. cd frontend
+5. cd frontend
    npm run dev
 
 
